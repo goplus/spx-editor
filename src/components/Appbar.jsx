@@ -42,8 +42,8 @@ export default observer(function Appbar(props) {
               <FileMenu />
             </div>
             <div className="sm:ml-6">
-              <label for="name" class="mb-2 text-gray-400">作品名称：</label>
-              <input id="name" className="bg-gray-400 focus:bg-white rounded-lg p-1.5" value="abc" />
+              <label htmlFor="name" className="mb-2 text-gray-400">作品名称：</label>
+              <input id="name" className="bg-gray-400 focus:bg-white rounded-lg p-1.5" defaultValue="abc" />
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
