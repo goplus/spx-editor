@@ -15,3 +15,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blocklyFlyoutLabelBackground {
+  background-color: #f5f5f5;
+}
+
+.blocklyFlyoutLabel.categoryLabel {
+  background-color: #f5f5f5;
+}
+
+.blocklyFlyoutLabelText {
+  color: #000;
+}

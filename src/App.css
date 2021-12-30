@@ -1,38 +1,31 @@
-.App {
+.scratchCategoryMenu {
+  width: 60px;
+  background: #FFFFFF;
+  color: #575E75;
+  font-size: .7rem;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.scratchCategoryMenuItem.categorySelected {
+  background: #E9EEF2;
+}
+
+.scratchCategoryMenuItem {
+  padding: 0.375rem 0px;
+  cursor: pointer;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scratchCategoryItemBubble {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid;
+  border-radius: 100%;
+  margin: 0 auto 0.125rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scratchCategoryMenuItemLabel {
+  font-size: 0.65rem;
 }
