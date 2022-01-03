@@ -1,6 +1,7 @@
 import JSZip from "jszip";
 import { genDeclCode } from "./decl";
 import { genClassName, genSoundName } from "./gen";
+import { convertDataUrlToBinaryString } from "../image";
 
 const DUMMY_GO_FILE = `package dummy
 
@@ -77,7 +78,11 @@ function saveCostumesToZip(sprite, zip) {
   const costumeDir = `${baseDir}/${spriteName}`;
   for (const costume of sprite.costumes) {
     const costumeFileName = `${costumeDir}/${costume.name}.${costume.dataFormat}`;
-    zip.file(costumeFileName, costume.image);
+    let imageData = costume.image;
+    if (costume.dataFormat !== 'svg') {
+      imageData = convertDataUrlToBinaryString(imageData);
+    }
+    zip.file(costumeFileName, Array.from(imageData, (x) => x.charCodeAt(0)));
   }
 }
 

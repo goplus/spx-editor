@@ -2,15 +2,18 @@ import React from 'react';
 import {observer} from 'mobx-react';
 import classnames from 'classnames';
 import PaintEditor from 'scratch-paint/dist/scratch-paint';
-// import {encode as encodePng} from 'fast-png';
+import {imageDataToDataUrl} from '../lib/image';
 import {workspace} from '../store';
 
 export default observer(function CostumeEditor() {
   const currentCostume = workspace.currentCostume;
 
   const optionalZoomLevelId = '0'
-  const handleUpdateImageFunction = (isVector, image) => {
+  const handleUpdateImageFunction = async (isVector, image) => {
     const dataFormat = isVector ? 'svg' : 'png';
+    if (!isVector) {
+      image = imageDataToDataUrl(image);
+    }
     currentCostume.setImage(dataFormat, image);
   }
   const handleUpdateNameFunction = (name) => {

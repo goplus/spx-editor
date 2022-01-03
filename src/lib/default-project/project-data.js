@@ -11,6 +11,7 @@ onStart => {
 onClick => {
   play 喵
   say "喵～喵～"
+  nextCostume
 }
 `
 

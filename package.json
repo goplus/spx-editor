@@ -10,6 +10,7 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "fast-png": "^6.1.0",
+    "js-base64": "^3.7.2",
     "jszip": "^3.7.1",
     "mobx": "^6.3.10",
     "mobx-react": "^7.2.1",
