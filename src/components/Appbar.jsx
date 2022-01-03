@@ -5,20 +5,19 @@ import { workspace } from '../store/index';
 
 export default observer(function Appbar(props) {
   return (
-    <nav className="bg-gray-800 flex-none">
-      <div className="mx-auto px-2 sm:px-6 lg:px-8">
+    <nav className="bg-blue-400 flex-none">
+      <div className="mx-auto pr-2 sm:pr-6 lg:pr-8">
         <div className="relative flex items-center justify-between h-16">
-          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <img className="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow" />
-              <p className="bg-gray-900 text-white font-large">Go+ Spx</p>
+              <div className="bg-blue-500 p-5 text-white font-large">Go+ Spx</div>
             </div>
+          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="hidden sm:block sm:ml-6">
               <FileMenu />
             </div>
             <div className="sm:ml-6">
-              <label htmlFor="name" className="mb-2 text-gray-400">作品名称：</label>
-              <input id="name" className="bg-gray-400 px-3 py-1 focus:bg-white rounded-lg" defaultValue={workspace.project.name} />
+              <label htmlFor="name" className="m-2 text-white">Name:</label>
+              <input id="name" className="bg-blue-100 px-3 py-1 focus:bg-white rounded-lg" defaultValue={workspace.project.name} />
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">

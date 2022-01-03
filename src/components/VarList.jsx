@@ -2,8 +2,27 @@ import React, {useState, useRef, useLayoutEffect} from 'react';
 import {observer} from 'mobx-react';
 import NewVarModal from './NewVarModal';
 import Blocks from './Blocks';
+import { workspace } from '../store';
 
-export default observer(function ({sprite}) {
+function Var({sprite, variable}) {
+  return (
+    <div className='var-list-body-item flex flex-row border-b-2 py-2 group'>
+      <div className='var-list-body-item-name'>
+        {variable.name}
+      </div>
+      <div className='var-list-body-item-value flex-1 text-sky-600 ml-2 mr-2'>
+        {variable.type}
+      </div>
+      <button className="hidden group-hover:block justify-self-end" onClick={() => sprite.delVar(variable.id)}>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="red">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+        </svg>
+      </button>
+    </div>
+  );
+}
+
+export default observer(function ({sprite, stage}) {
   const [isOpen, setIsOpen] = useState(false);
   const [key, setKey] = useState(0);
   const [error, setError] = useState(null);
@@ -51,20 +70,11 @@ export default observer(function ({sprite}) {
           </div>
         </div>
         <div className='px-2' style={{backgroundColor: '#F9F9F9'}}>
+          {!sprite.isStage && stage.variables.map((v, i) => (
+            <Var key={`${v.id}_${i}`} sprite={stage} variable={v} />
+          ))}
           {sprite.variables.map((v, i) => (
-            <div key={`${v.id}_${i}`} className='var-list-body-item flex flex-row border-b-2 py-2 group'>
-              <div className='var-list-body-item-name'>
-                {v.name}
-              </div>
-              <div className='var-list-body-item-value flex-1 text-sky-600 ml-2 mr-2'>
-                {v.type}
-              </div>
-              <button className="hidden group-hover:block justify-self-end" onClick={() => sprite.delVar(v.id)}>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="red">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                </svg>
-              </button>
-            </div>
+            <Var key={`${v.id}_${i}`} sprite={sprite} variable={v} />
           ))}
         </div>
         <object type='image/svg+xml' data='/svg-export/svgexport-16.svg'>

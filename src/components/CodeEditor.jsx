@@ -56,7 +56,7 @@ class CodeEditor extends React.Component {
 
     return (
       <div className='code-editor flex flex-row flex-auto overflow-hidden space-x-0.5 bg-gray-300'>
-        <VarList sprite={sprite} />
+        <VarList sprite={sprite} stage={project.stage} />
         <Editor className='flex-auto overflow-hidden'
           onMount={this.handleEditorDidMount}
           language='go'
