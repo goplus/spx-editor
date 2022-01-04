@@ -5,7 +5,7 @@ import Variable from './Variable';
 import Costume from './Costume';
 
 const Sprite = types.model('Sprite', {
-  id: types.optional(types.identifier, uuidv4),
+  id: types.identifier,
   name: types.string,
   isStage: types.boolean,
   isDraggable: types.optional(types.boolean, true),
@@ -43,6 +43,19 @@ const Sprite = types.model('Sprite', {
   addVar(varName, varType, varValue) {
     if (self.variables.filter(v => v.name === varName).length > 0) {
       return false;
+    }
+
+    if (varValue !== undefined) {
+      switch (varType) {
+        case 'int':
+          varValue = parseInt(varValue, 10);
+          break;
+        case 'float':
+          varValue = parseFloat(varValue);
+          break;
+        default:
+          varValue = varValue.toString();
+      }
     }
 
     self.variables.push(Variable.create({

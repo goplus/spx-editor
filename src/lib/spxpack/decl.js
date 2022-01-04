@@ -50,7 +50,7 @@ export function genDeclCode(project, sprite, readOnly=true) {
         decl += `\n${lists.join("\n")}\n`;
     }
 
-    const varInits = sprite.variables.filter(variable => variable.value !== "").map(variable => {
+    const varInits = sprite.variables.filter(variable => !variable.isDefault).map(variable => {
         return genVarInit(project, variable.name, variable.value);
     });
     const listInits = sprite.lists.filter(list => list.value !== "").map(list => {
