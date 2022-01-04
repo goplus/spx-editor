@@ -1,0 +1,1424 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="blocklyFlyout" style="display: block; transform: translate(0px, 0px); opacity: 1;" width="250" height="5875">
+  <style>
+    /* <![CDATA[ */
+    .blocklyFlyoutLabelBackground {
+      background-color: #f5f5f5;
+    }
+
+    .blocklyFlyoutLabel.categoryLabel {
+      background-color: #f5f5f5;
+    }
+
+    .blocklyFlyoutLabelText {
+      color: red;
+    }
+    /* ]]> */
+  </style>
+  <path class="blocklyFlyoutBackground" d="M 0,0 h 250 a 0 0 0 0 1 0 0 v 5875 a 0 0 0 0 1 0 0 h -250 z" fill="#F9F9F9" fill-opacity="0.8"></path>
+  <g class="blocklyWorkspace">
+    <g class="blocklyBlockCanvas" transform="translate(0,2) scale(0.675)">
+      <rect fill-opacity="0" x="12" y="1960" height="56" width="122.9921875"></rect>
+      <g data-id="looks_nextbackdrop" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1960)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 118.9921875 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="53.49609375" transform="translate(8, 24) " fill="#FFFFFF">next&#xA0;backdrop</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="2212" height="56" width="278.2578125"></rect>
+      <g data-id="looks_changeeffectby" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2212)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 274.2578125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="math_number" data-argument-type="text number" data-shapes="argument round" transform="translate(230.2578125,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">25</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="27.2734375" transform="translate(8, 24) " fill="#FFFFFF">change</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(70.546875, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="79.3671875" height="32" stroke="#774DCB" fill="#9966FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="29.68359375" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">color</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(55.3671875,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="32.171875" transform="translate(157.9140625, 24) " fill="#FFFFFF">effect&#xA0;by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="2280" height="56" width="252.4453125"></rect>
+      <g data-id="looks_seteffectto" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2280)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 248.4453125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="At!1ajFIe_+-0AtKpM|f" data-argument-type="text number" data-shapes="argument round" transform="translate(204.4453125,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="11.265625" transform="translate(8, 24) " fill="#FFFFFF">set</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(48, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="79.3671875" height="32" stroke="#774DCB" fill="#9966FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="29.68359375" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">color</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(55.3671875,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="30.5390625" transform="translate(135.3671875, 24) " fill="#FFFFFF">effect&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="2348" height="56" width="166.9140625"></rect>
+      <g data-id="looks_cleargraphiceffects" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2348)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 162.9140625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="75.45703125" transform="translate(8, 24) " fill="#FFFFFF">clear&#xA0;graphic&#xA0;effects</text>
+      </g>
+      <g transform="translate(12, 2795.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="2788" height="40" width="201.140625"></rect>
+      <g data-id="backdropnumbername" class="blocklyDraggable" data-shapes="reporter round" data-category="looks" transform="translate(49,2788)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,0 m 20,0 H 181.140625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="35.2734375" transform="translate(12, 20) " fill="#FFFFFF">backdrop</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(90.546875, 4) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="98.59375" height="32" stroke="#774DCB" fill="#9966FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="39.296875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">number</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(74.59375,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="3104" height="56" width="128.640625"></rect>
+      <g data-id="sound_stopallsounds" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3104)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 124.640625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="56.3203125" transform="translate(8, 24) " fill="#FFFFFF">stop&#xA0;all&#xA0;sounds</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3196" height="56" width="277.9375"></rect>
+      <g data-id="sound_changeeffectby" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3196)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 273.9375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="I0`5i8`TRtT^~XKloDB?" data-argument-type="text number" data-shapes="argument round" transform="translate(229.9375,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="27.2734375" transform="translate(8, 24) " fill="#FFFFFF">change</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(70.546875, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="79.046875" height="32" stroke="#BD42BD" fill="#CF63CF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="29.5234375" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">pitch</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(55.046875,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="32.171875" transform="translate(157.59375, 24) " fill="#FFFFFF">effect&#xA0;by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#BD42BD"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="3264" height="56" width="260.8203125"></rect>
+      <g data-id="sound_seteffectto" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3264)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 256.8203125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="Jt$ElB_.tfcsB398y_n*" data-argument-type="text number" data-shapes="argument round" transform="translate(204.125,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 32.6953125 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="16.34765625" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">100</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="11.265625" transform="translate(8, 24) " fill="#FFFFFF">set</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(48, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="79.046875" height="32" stroke="#BD42BD" fill="#CF63CF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="29.5234375" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">pitch</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(55.046875,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="30.5390625" transform="translate(135.046875, 24) " fill="#FFFFFF">effect&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#BD42BD"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="3332" height="56" width="157.125"></rect>
+      <g data-id="sound_cleareffects" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3332)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 153.125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="70.5625" transform="translate(8, 24) " fill="#FFFFFF">clear&#xA0;sound&#xA0;effects</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3424" height="56" width="205.1953125"></rect>
+      <g data-id="sound_changevolumeby" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3424)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 201.1953125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="J4Sv}2WPj0ToqX|jhPU!" data-argument-type="text number" data-shapes="argument round" transform="translate(151.171875,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 30.0234375 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="15.01171875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">-10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="67.5859375" transform="translate(8, 24) " fill="#FFFFFF">change&#xA0;volume&#xA0;by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#BD42BD"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="3492" height="56" width="196.5859375"></rect>
+      <g data-id="sound_setvolumeto" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3492)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 192.5859375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="g;,isG)4RSYuYPw#b:q)" data-argument-type="text number" data-shapes="argument round" transform="translate(115.890625,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 32.6953125 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="16.34765625" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">100</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="49.9453125" transform="translate(8, 24) " fill="#FFFFFF">set&#xA0;volume&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#BD42BD"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="8" transform="translate(172.5859375, 24) " fill="#FFFFFF">%</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3688" height="56" width="148.4921875"></rect>
+      <g data-id="event_whenflagclicked" class="blocklyDraggable" data-shapes="hat" data-category="events" transform="translate(12,3704)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 144.4921875 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.859375" transform="translate(8, 24) " fill="#FFFFFF">when</text>
+        <g transform="translate(55.71875, 12) ">
+          <image height="24px" width="24px" xlink:href="green-flag.svg"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="26.38671875" transform="translate(87.71875, 24) " fill="#FFFFFF">clicked</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3772" height="56" width="248.03125"></rect>
+      <g data-id="event_whenkeypressed" class="blocklyDraggable" data-shapes="hat" data-category="events" transform="translate(12,3788)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 244.03125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.859375" transform="translate(8, 24) " fill="#FFFFFF">when</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(55.71875, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="86.7734375" height="32" stroke="#CC9900" fill="#FFBF00" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="33.38671875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">space</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(62.7734375,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="44.76953125" transform="translate(150.4921875, 24) " fill="#FFFFFF">key&#xA0;pressed</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="4048" height="56" width="238.3125"></rect>
+      <g data-id="event_whengreaterthan" class="blocklyDraggable" data-shapes="hat" data-category="events" transform="translate(12,4064)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 234.3125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="`$9!9hopR*(EBRBHGfPh" data-argument-type="text number" data-shapes="argument round" transform="translate(190.3125,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.859375" transform="translate(8, 24) " fill="#FFFFFF">when</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(55.71875, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="108.9921875" height="32" stroke="#CC9900" fill="#FFBF00" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="44.49609375" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">loudness</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(84.9921875,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.80078125" transform="translate(172.7109375, 24) " fill="#FFFFFF">&gt;</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#CC9900"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="4452" height="56" width="166.8515625"></rect>
+      <g data-id="control_wait" class="blocklyDraggable" data-shapes="stack" data-category="control" transform="translate(12,4452)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 162.8515625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="math_positive_number" data-argument-type="text number" data-shapes="argument round" transform="translate(48,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="15.265625" transform="translate(8, 24) " fill="#FFFFFF">wait</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#CF8B17"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.42578125" transform="translate(96, 24) " fill="#FFFFFF">seconds</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="4544" height="112" width="160"></rect>
+      <g data-id="control_repeat" class="blocklyDraggable" data-shapes="c-block c-1" data-category="control" transform="translate(12,4544)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="math_whole_number" data-argument-type="text number" data-shapes="argument round" transform="translate(63.140625,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="23.5703125" transform="translate(8, 24) " fill="#FFFFFF">repeat</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#CF8B17"></path>
+        <g transform="translate(128, 76) ">
+          <image height="24px" width="24px" xlink:href="repeat.svg"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="4668" height="104" width="160"></rect>
+      <g data-id="forever" class="blocklyDraggable" data-shapes="c-block c-1 end" data-category="control" transform="translate(12,4668)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="25.80078125" transform="translate(8, 24) " fill="#FFFFFF">forever</text>
+        <g transform="translate(128, 76) ">
+          <image height="24px" width="24px" xlink:href="repeat.svg"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="4808" height="112" width="160"></rect>
+      <g data-id="control_if" class="blocklyDraggable" data-shapes="c-block c-1" data-category="control" transform="translate(12,4808)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.44921875" transform="translate(8, 24) " fill="#FFFFFF">if</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#CF8B17" transform="translate(48,8)" data-argument-type="boolean"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="16.296875" transform="translate(104, 24) " fill="#FFFFFF">then</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="4932" height="168" width="160"></rect>
+      <g data-id="control_if_else" class="blocklyDraggable" data-shapes="c-block c-2" data-category="control" transform="translate(12,4932)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.44921875" transform="translate(8, 24) " fill="#FFFFFF">if</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#CF8B17" transform="translate(48,8)" data-argument-type="boolean"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="16.296875" transform="translate(104, 24) " fill="#FFFFFF">then</text>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="14.9765625" transform="translate(8, 88) " fill="#FFFFFF">else</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5112" height="56" width="138.390625"></rect>
+      <g data-id="wait_until" class="blocklyDraggable" data-shapes="stack" data-category="control" transform="translate(12,5112)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 134.390625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="33.1953125" transform="translate(8, 24) " fill="#FFFFFF">wait&#xA0;until</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#CF8B17" transform="translate(82.390625,8)" data-argument-type="boolean"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="5180" height="112" width="160"></rect>
+      <g data-id="repeat_until" class="blocklyDraggable" data-shapes="c-block c-1" data-category="control" transform="translate(12,5180)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 16 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="41.49609375" transform="translate(8, 24) " fill="#FFFFFF">repeat&#xA0;until</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#CF8B17" transform="translate(98.9921875,8)" data-argument-type="boolean"></path>
+        <g transform="translate(128, 76) ">
+          <image height="24px" width="24px" xlink:href="repeat.svg"></image>
+        </g>
+      </g>
+      <g transform="translate(12, 6007.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="6000" height="40" width="77.3671875"></rect>
+      <g data-id="answer" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(49,6000)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 57.3671875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="26.68359375" transform="translate(12, 20) " fill="#FFFFFF">answer</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6076" height="40" width="236.765625"></rect>
+      <g data-id="sensing_keypressed" class="blocklyDraggable" data-shapes="reporter boolean" data-category="sensing" transform="translate(12,6076)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 216.765625 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="sensing_keyoptions" data-argument-type="dropdown" data-shapes="argument round" transform="translate(53.796875,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#47A8D1" fill-opacity="1" d="m 0,0 m 16,0 H 70.7734375 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="25.38671875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">space</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(54.7734375,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="12.8984375" transform="translate(20, 20) " fill="#FFFFFF">key</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="34.09765625" transform="translate(148.5703125, 20) " fill="#FFFFFF">pressed?</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6128" height="40" width="144.0390625"></rect>
+      <g data-id="sensing_mousedown" class="blocklyDraggable" data-shapes="reporter boolean" data-category="sensing" transform="translate(12,6128)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 124.0390625 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="52.01953125" transform="translate(20, 20) " fill="#FFFFFF">mouse&#xA0;down?</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6180" height="40" width="86.8359375"></rect>
+      <g data-id="sensing_mousex" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(12,6180)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 66.8359375 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.41796875" transform="translate(12, 20) " fill="#FFFFFF">mouse&#xA0;x</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6232" height="40" width="86.546875"></rect>
+      <g data-id="sensing_mousey" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(12,6232)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 66.546875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.2734375" transform="translate(12, 20) " fill="#FFFFFF">mouse&#xA0;y</text>
+      </g>
+      <g transform="translate(12, 6407.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="6400" height="40" width="90.9921875"></rect>
+      <g data-id="loudness" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(49,6400)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 70.9921875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="33.49609375" transform="translate(12, 20) " fill="#FFFFFF">loudness</text>
+      </g>
+      <g transform="translate(12, 6483.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="6476" height="40" width="61.6328125"></rect>
+      <g data-id="timer" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(49,6476)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 41.6328125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="18.81640625" transform="translate(12, 20) " fill="#FFFFFF">timer</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6528" height="56" width="94.8515625"></rect>
+      <g data-id="sensing_resettimer" class="blocklyDraggable" data-shapes="stack" data-category="sensing" transform="translate(12,6528)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 90.8515625 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="39.42578125" transform="translate(8, 24) " fill="#FFFFFF">reset&#xA0;timer</text>
+      </g>
+      <g transform="translate(12, 6703.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="6696" height="40" width="158.203125"></rect>
+      <g data-id="current" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(49,6696)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 138.203125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="26.234375" transform="translate(12, 20) " fill="#FFFFFF">current</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(72.46875, 4) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="73.734375" height="32" stroke="#2E8EB8" fill="#5CB1D6" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="26.8671875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">year</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(49.734375,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="6748" height="40" width="142.8984375"></rect>
+      <g data-id="sensing_dayssince2000" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(12,6748)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 122.8984375 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="59.44921875" transform="translate(12, 20) " fill="#FFFFFF">days&#xA0;since&#xA0;2000</text>
+      </g>
+      <g transform="translate(12, 6831.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="6824" height="40" width="97.203125"></rect>
+      <g data-id="sensing_username" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(49,6824)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 77.203125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="36.6015625" transform="translate(12, 20) " fill="#FFFFFF">username</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6952" height="40" width="113.6015625"></rect>
+      <g data-id="operator_add" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,6952)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 93.6015625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="9;7=@f?f,`UEG45mmlZf" data-argument-type="text number" data-shapes="argument round" transform="translate(4,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="Gd4Aof~H)+rs@H~+`.F@" data-argument-type="text number" data-shapes="argument round" transform="translate(69.6015625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.80078125" transform="translate(52, 20) " fill="#FFFFFF">+</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7004" height="40" width="110.2265625"></rect>
+      <g data-id="operator_subtract" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7004)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 90.2265625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="P#w?mQUw=!q2/8Qvo`]^" data-argument-type="text number" data-shapes="argument round" transform="translate(4,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="5,Re$:t$3+fGAZoC$#(d" data-argument-type="text number" data-shapes="argument round" transform="translate(66.2265625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="3.11328125" transform="translate(52, 20) " fill="#FFFFFF">-</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7056" height="40" width="109.921875"></rect>
+      <g data-id="operator_multiply" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7056)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 89.921875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="s@-*XB8]U#Rl{m[A)o{^" data-argument-type="text number" data-shapes="argument round" transform="translate(4,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="9F}o4sD,NpGKnc`k!J0S" data-argument-type="text number" data-shapes="argument round" transform="translate(65.921875,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="2.9609375" transform="translate(52, 20) " fill="#FFFFFF">*</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7108" height="40" width="109.6328125"></rect>
+      <g data-id="operator_divide" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7108)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 89.6328125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="uYmJPrueehVq`Z?[cUWd" data-argument-type="text number" data-shapes="argument round" transform="translate(4,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="s?(.sb530[MuA5^*?@A@" data-argument-type="text number" data-shapes="argument round" transform="translate(65.6328125,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="2.81640625" transform="translate(52, 20) " fill="#FFFFFF">/</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7184" height="40" width="227.2890625"></rect>
+      <g data-id="operator_random" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7184)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 207.2890625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="i;+xnc)o)%G|NE.h.Rbw" data-argument-type="text number" data-shapes="argument round" transform="translate(112.46875,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <g data-id="Hd0WX=sdw+Ve$1{2ntN8" data-argument-type="text number" data-shapes="argument round" transform="translate(183.2890625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="46.234375" transform="translate(12, 20) " fill="#FFFFFF">pick&#xA0;random</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="7.41015625" transform="translate(160.46875, 20) " fill="#FFFFFF">to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7260" height="40" width="145.6015625"></rect>
+      <g data-id="operator_gt" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7260)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 125.6015625 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="text" data-argument-type="text" data-shapes="argument round" transform="translate(20,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="fTiyiNC2-omM3+s;,f_;" data-argument-type="text" data-shapes="argument round" transform="translate(85.6015625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">50</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.80078125" transform="translate(68, 20) " fill="#FFFFFF">&gt;</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7312" height="40" width="145.6015625"></rect>
+      <g data-id="operator_lt" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7312)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 125.6015625 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="u5aT!x{i2)U*~UOW{m!z" data-argument-type="text" data-shapes="argument round" transform="translate(20,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="L!:kYljlS3J4~w4k^lD~" data-argument-type="text" data-shapes="argument round" transform="translate(85.6015625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">50</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.80078125" transform="translate(68, 20) " fill="#FFFFFF">&lt;</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7364" height="40" width="145.6015625"></rect>
+      <g data-id="operator_equals" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7364)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 125.6015625 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="zhQ)Gi3Dl8dZg(g-zA-J" data-argument-type="text" data-shapes="argument round" transform="translate(20,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="J1*!{m|iQ*6#z2/ylRDB" data-argument-type="text" data-shapes="argument round" transform="translate(85.6015625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">50</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.80078125" transform="translate(68, 20) " fill="#FFFFFF">=</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7440" height="40" width="155.859375"></rect>
+      <g data-id="operator_and" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7440)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 135.859375 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#389438" transform="translate(8,4)" data-argument-type="boolean"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="13.9296875" transform="translate(64, 20) " fill="#FFFFFF">and</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#389438" transform="translate(99.859375,4)" data-argument-type="boolean"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7492" height="40" width="143.125"></rect>
+      <g data-id="operator_or" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7492)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 123.125 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#389438" transform="translate(8,4)" data-argument-type="boolean"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="7.5625" transform="translate(64, 20) " fill="#FFFFFF">or</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#389438" transform="translate(87.125,4)" data-argument-type="boolean"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7544" height="40" width="108"></rect>
+      <g data-id="operator_not" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7544)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 88 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="12" transform="translate(20, 20) " fill="#FFFFFF">not</text>
+        <path class="blocklyPath" style="visibility: visible" d="M 16,0  h 16 l 16,16 l -16,16 h -16 l -16,-16 l 16,-16 z" fill="#389438" transform="translate(52,4)" data-argument-type="boolean"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7852" height="40" width="137.1875"></rect>
+      <g data-id="operator_mod" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7852)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 117.1875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="XF55o1m#t1C),nIYyj$v" data-argument-type="text number" data-shapes="argument round" transform="translate(4,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="tiyK8hODsS9FzP`pLO!S" data-argument-type="text number" data-shapes="argument round" transform="translate(93.1875,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="16.59375" transform="translate(52, 20) " fill="#FFFFFF">mod</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7904" height="40" width="106.9765625"></rect>
+      <g data-id="operator_round" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7904)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 86.9765625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="3k,pJ;X0^H0;TPNJJu_s" data-argument-type="text number" data-shapes="argument round" transform="translate(62.9765625,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="21.48828125" transform="translate(12, 20) " fill="#FFFFFF">round</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7980" height="40" width="155.5078125"></rect>
+      <g data-id="operator_mathop" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7980)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 135.5078125 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="azjCtZ4n(iUz$oZ$=Dsf" data-argument-type="text number" data-shapes="argument round" transform="translate(111.5078125,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(12, 4) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="68.9765625" height="32" stroke="#389438" fill="#59C059" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="24.48828125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">abs</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(44.9765625,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="7.265625" transform="translate(88.9765625, 20) " fill="#FFFFFF">of</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="64" height="56" width="153.2268524169922"></rect>
+      <g data-id="motion_movesteps" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,64)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 149.2268524169922 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="jC/Lsb~3j*`J-9?W0W!6" data-argument-type="text number" data-shapes="argument round" transform="translate(56.613426208496094,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="20.306713104248047" transform="translate(8, 24) " fill="#FFFFFF">move</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="20.306713104248047" transform="translate(104.6134262084961, 24) " fill="#FFFFFF">steps</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="132" height="56" width="193.22453498840332"></rect>
+      <g data-id="motion_turnright" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,132)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 189.22453498840332 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="~x2Dm$0_{xy|gN,WEvL%" data-argument-type="text number" data-shapes="argument round" transform="translate(77.61805534362793,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">15</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="14.809027671813965" transform="translate(8, 24) " fill="#FFFFFF">turn</text>
+        <g transform="translate(45.61805534362793, 12) ">
+          <image height="24px" width="24px" xlink:href="rotate-right.svg"></image>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="29.803239822387695" transform="translate(125.61805534362793, 24) " fill="#FFFFFF">degrees</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="200" height="56" width="193.22453498840332"></rect>
+      <g data-id="motion_turnleft" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,200)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 189.22453498840332 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="6@meQns!6*XFwiAB2+97" data-argument-type="text number" data-shapes="argument round" transform="translate(77.61805534362793,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">15</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="14.809027671813965" transform="translate(8, 24) " fill="#FFFFFF">turn</text>
+        <g transform="translate(45.61805534362793, 12) ">
+          <image height="24px" width="24px" xlink:href="rotate-left.svg"></image>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="29.803239822387695" transform="translate(125.61805534362793, 24) " fill="#FFFFFF">degrees</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="292" height="56" width="224.86574172973633"></rect>
+      <g data-id="motion_goto" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,292)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 220.86574172973633 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="motion_goto_menu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(54.24074172973633,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4280D7" fill-opacity="1" d="m 0,0 m 16,0 H 146.625 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="63.3125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">random&#xA0;position</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(130.625,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.120370864868164" transform="translate(8, 24) " fill="#FFFFFF">go&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="360" height="56" width="188.483793258667"></rect>
+      <g data-id="motion_gotoxy" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,360)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 184.483793258667 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="movex" data-argument-type="text number" data-shapes="argument round" transform="translate(71.72916412353516,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <g data-id="movey" data-argument-type="text number" data-shapes="argument round" transform="translate(140.483793258667,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="27.864582061767578" transform="translate(8, 24) " fill="#FFFFFF">go&#xA0;to&#xA0;x:</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="6.377314567565918" transform="translate(119.72916412353516, 24) " fill="#FFFFFF">y:</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="428" height="56" width="332.1736068725586"></rect>
+      <g data-id="motion_glideto" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,428)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 328.1736068725586 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="%QL_5VK6BW1uL)8*)_KF" data-argument-type="text number" data-shapes="argument round" transform="translate(51.8796272277832,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <g data-id="motion_glideto_menu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(161.5486068725586,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4280D7" fill-opacity="1" d="m 0,0 m 16,0 H 146.625 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="63.3125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">random&#xA0;position</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(130.625,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="17.9398136138916" transform="translate(8, 24) " fill="#FFFFFF">glide</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="26.834489822387695" transform="translate(99.8796272277832, 24) " fill="#FFFFFF">secs&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="496" height="56" width="295.7916660308838"></rect>
+      <g data-id="motion_glidesecstoxy" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,496)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 291.7916660308838 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="]!9Mo=sbs%~I}N-pa@LS" data-argument-type="text number" data-shapes="argument round" transform="translate(51.8796272277832,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <g data-id="glidex" data-argument-type="text number" data-shapes="argument round" transform="translate(179.03703689575195,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <g data-id="glidey" data-argument-type="text number" data-shapes="argument round" transform="translate(247.7916660308838,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="17.9398136138916" transform="translate(8, 24) " fill="#FFFFFF">glide</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="35.578704833984375" transform="translate(99.8796272277832, 24) " fill="#FFFFFF">secs&#xA0;to&#xA0;x:</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="6.377314567565918" transform="translate(227.03703689575195, 24) " fill="#FFFFFF">y:</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="588" height="56" width="188.20138549804688"></rect>
+      <g data-id="motion_pointindirection" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,588)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 184.20138549804688 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="math_angle" data-argument-type="text angle" data-shapes="argument round" transform="translate(140.20138549804688,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">90</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="62.10069274902344" transform="translate(8, 24) " fill="#FFFFFF">point&#xA0;in&#xA0;direction</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="656" height="56" width="275.8495330810547"></rect>
+      <g data-id="motion_pointtowards" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,656)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 271.8495330810547 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="motion_pointtowards_menu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(117.66666412353516,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4280D7" fill-opacity="1" d="m 0,0 m 16,0 H 134.18286895751953 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="57.091434478759766" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">mouse-pointer</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(118.18286895751953,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="50.83333206176758" transform="translate(8, 24) " fill="#FFFFFF">point&#xA0;towards</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="748" height="56" width="154.11573791503906"></rect>
+      <g data-id="motion_changexby" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,748)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 150.11573791503906 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="=TW$B%eglG^]NQUR(u?p" data-argument-type="text number" data-shapes="argument round" transform="translate(106.11573791503906,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="45.05786895751953" transform="translate(8, 24) " fill="#FFFFFF">change&#xA0;x&#xA0;by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="816" height="56" width="118.83796310424805"></rect>
+      <g data-id="motion_setx" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,816)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 114.83796310424805 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="setx" data-argument-type="text number" data-shapes="argument round" transform="translate(70.83796310424805,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="27.418981552124023" transform="translate(8, 24) " fill="#FFFFFF">set&#xA0;x&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="884" height="56" width="153.82638549804688"></rect>
+      <g data-id="motion_changeyby" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,884)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 149.82638549804688 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="McNPkHTJiJ1,6vE9bBT!" data-argument-type="text number" data-shapes="argument round" transform="translate(105.82638549804688,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="44.91319274902344" transform="translate(8, 24) " fill="#FFFFFF">change&#xA0;y&#xA0;by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="952" height="56" width="118.54861068725586"></rect>
+      <g data-id="motion_sety" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,952)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 114.54861068725586 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="sety" data-argument-type="text number" data-shapes="argument round" transform="translate(70.54861068725586,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="27.27430534362793" transform="translate(8, 24) " fill="#FFFFFF">set&#xA0;y&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#3373CC"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="1044" height="56" width="153.8472137451172"></rect>
+      <g data-id="motion_ifonedgebounce" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,1044)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 149.8472137451172 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="68.9236068725586" transform="translate(8, 24) " fill="#FFFFFF">if&#xA0;on&#xA0;edge,&#xA0;bounce</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="1136" height="56" width="251.86804962158203"></rect>
+      <g data-id="motion_setrotationstyle" class="blocklyDraggable" data-shapes="stack" data-category="motion" transform="translate(12,1136)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 247.86804962158203 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="61.51620101928711" transform="translate(8, 24) " fill="#FFFFFF">set&#xA0;rotation&#xA0;style</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(139.03240203857422, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="104.83564758300781" height="32" stroke="#3373CC" fill="#4C97FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="42.417823791503906" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">left-right</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(80.83564758300781,11)"></image>
+        </g>
+      </g>
+      <g transform="translate(12, 1235.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="1228" height="40" width="96.32638549804688"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_xposition" class="blocklyDraggable" data-shapes="reporter round" data-category="motion" transform="translate(49,1228)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,0 m 20,0 H 76.32638549804688 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="36.16319274902344" transform="translate(12, 20) " fill="#FFFFFF">x&#xA0;position</text>
+      </g>
+      <g transform="translate(12, 1287.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="1280" height="40" width="96.03703308105469"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_yposition" class="blocklyDraggable" data-shapes="reporter round" data-category="motion" transform="translate(49,1280)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,0 m 20,0 H 76.03703308105469 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="36.018516540527344" transform="translate(12, 20) " fill="#FFFFFF">y&#xA0;position</text>
+      </g>
+      <g transform="translate(12, 1339.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="1332" height="40" width="88.62963104248047"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_direction" class="blocklyDraggable" data-shapes="reporter round" data-category="motion" transform="translate(49,1332)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#3373CC" fill="#4C97FF" fill-opacity="1" d="m 0,0 m 20,0 H 68.62963104248047 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="32.314815521240234" transform="translate(12, 20) " fill="#FFFFFF">direction</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="1460" height="56" width="267.12007904052734"></rect>
+      <g data-id="looks_sayforsecs" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1460)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 263.12007904052734 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="YC)z^MbCyBp*-xX@wpy4" data-argument-type="text" data-shapes="argument round" transform="translate(48,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 48.10647964477539 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="24.053239822387695" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">Hello!</text>
+          </g>
+        </g>
+        <g data-id="V[x{hQoXOfOk,|g20Mu8" data-argument-type="text number" data-shapes="argument round" transform="translate(148.26851654052734,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">2</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="12.754629135131836" transform="translate(8, 24) " fill="#FFFFFF">say</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="10.081018447875977" transform="translate(120.10647964477539, 24) " fill="#FFFFFF">for</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.42578125" transform="translate(196.26851654052734, 24) " fill="#FFFFFF">seconds</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="1528" height="56" width="120.10647964477539"></rect>
+      <g data-id="looks_say" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1528)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 116.10647964477539 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="%G{BH,1=cO(eY}ER_egj" data-argument-type="text" data-shapes="argument round" transform="translate(48,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 48.10647964477539 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="24.053239822387695" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">Hello!</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="12.754629135131836" transform="translate(8, 24) " fill="#FFFFFF">say</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="1596" height="56" width="281.9024848937988"></rect>
+      <g data-id="looks_thinkforsecs" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1596)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 277.9024848937988 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="KIu2kAv(dr%p#Z{Wpd_M" data-argument-type="text" data-shapes="argument round" transform="translate(52.14583206176758,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 58.7430534362793 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="29.37152671813965" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">Hmm...</text>
+          </g>
+        </g>
+        <g data-id="!,jfIayhcY5UZTq:L_A." data-argument-type="text number" data-shapes="argument round" transform="translate(163.05092239379883,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">2</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="18.07291603088379" transform="translate(8, 24) " fill="#FFFFFF">think</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="10.081018447875977" transform="translate(134.88888549804688, 24) " fill="#FFFFFF">for</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.42578125" transform="translate(211.05092239379883, 24) " fill="#FFFFFF">seconds</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="1664" height="56" width="134.88888549804688"></rect>
+      <g data-id="looks_think" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1664)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 130.88888549804688 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="c9up:p{0!*oA0:LlV$*}" data-argument-type="text" data-shapes="argument round" transform="translate(52.14583206176758,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 58.7430534362793 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="29.37152671813965" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">Hmm...</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="18.07291603088379" transform="translate(8, 24) " fill="#FFFFFF">think</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="1756" height="56" width="274.66898345947266"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_switchcostumeto" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1756)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 270.66898345947266 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="looks_costume" data-argument-type="dropdown" data-shapes="argument round" transform="translate(151.7523193359375,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#855CD6" fill-opacity="1" d="m 0,0 m 16,0 H 98.91666412353516 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="39.45833206176758" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">costume2</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(82.91666412353516,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="67.87615966796875" transform="translate(8, 24) " fill="#FFFFFF">switch&#xA0;costume&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="1824" height="56" width="116.47453308105469"></rect>
+      <g data-id="looks_nextcostume" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1824)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 112.47453308105469 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="50.237266540527344" transform="translate(8, 24) " fill="#FFFFFF">next&#xA0;costume</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="1892" height="56" width="287.71788024902344"></rect>
+      <g data-id="looks_switchbackdropto" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,1892)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 283.71788024902344 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="looks_backdrops" data-argument-type="dropdown" data-shapes="argument round" transform="translate(158.2734375,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#855CD6" fill-opacity="1" d="m 0,0 m 16,0 H 105.44444274902344 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="42.72222137451172" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">backdrop1</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(89.44444274902344,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="71.13671875" transform="translate(8, 24) " fill="#FFFFFF">switch&#xA0;backdrop&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="2052" height="56" width="174.57870483398438"></rect>
+      <g data-id="looks_changesizeby" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2052)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 170.57870483398438 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="R:Xu_ewl:k%L:S~u)|@1" data-argument-type="text number" data-shapes="argument round" transform="translate(126.57870483398438,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">10</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="55.28935241699219" transform="translate(8, 24) " fill="#FFFFFF">change&#xA0;size&#xA0;by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="2120" height="56" width="171.9962387084961"></rect>
+      <g data-id="looks_setsizeto" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2120)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 167.9962387084961 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="HVBa!,Z]h.{B5cfjN+8P" data-argument-type="text number" data-shapes="argument round" transform="translate(91.3009262084961,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 32.6953125 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="16.34765625" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">100</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="37.65046310424805" transform="translate(8, 24) " fill="#FFFFFF">set&#xA0;size&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="8" transform="translate(147.9962387084961, 24) " fill="#FFFFFF">%</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="2440" height="56" width="64"></rect>
+      <g data-id="looks_show" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2440)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 60 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.716434478759766" transform="translate(8, 24) " fill="#FFFFFF">show</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="2508" height="56" width="64"></rect>
+      <g data-id="looks_hide" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2508)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 60 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="15.856481552124023" transform="translate(8, 24) " fill="#FFFFFF">hide</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="2600" height="56" width="182.21759414672852"></rect>
+      <g data-id="looks_gotofrontback" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2600)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 178.21759414672852 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.120370864868164" transform="translate(8, 24) " fill="#FFFFFF">go&#xA0;to</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(54.24074172973633, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="76.3865737915039" height="32" stroke="#774DCB" fill="#9966FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="28.193286895751953" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">front</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(52.386573791503906,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="17.79513931274414" transform="translate(138.62731552124023, 24) " fill="#FFFFFF">layer</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="2668" height="56" width="254.52083206176758"></rect>
+      <g data-id="looks_goforwardbackwardlayers" class="blocklyDraggable" data-shapes="stack" data-category="looks" transform="translate(12,2668)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 250.52083206176758 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="math_integer" data-argument-type="text number" data-shapes="argument round" transform="translate(154.63194274902344,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="9.490740776062012" transform="translate(8, 24) " fill="#FFFFFF">go</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(48, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="98.63194274902344" height="32" stroke="#774DCB" fill="#9966FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="39.31597137451172" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">forward</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(74.63194274902344,11)"></image>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#774DCB"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="21.94444465637207" transform="translate(202.63194274902344, 24) " fill="#FFFFFF">layers</text>
+      </g>
+      <g transform="translate(12, 2743.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="2736" height="40" width="194.60995483398438"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_costumenumbername" class="blocklyDraggable" data-shapes="reporter round" data-category="looks" transform="translate(49,2736)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,0 m 20,0 H 174.60995483398438 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="32.00810241699219" transform="translate(12, 20) " fill="#FFFFFF">costume</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(84.01620483398438, 4) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="98.59375" height="32" stroke="#774DCB" fill="#9966FF" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="39.296875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">number</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(74.59375,11)"></image>
+        </g>
+      </g>
+      <g transform="translate(12, 2847.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="2840" height="40" width="53.0625"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_size" class="blocklyDraggable" data-shapes="reporter round" data-category="looks" transform="translate(49,2840)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#774DCB" fill="#9966FF" fill-opacity="1" d="m 0,0 m 20,0 H 33.0625 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="14.53125" transform="translate(12, 20) " fill="#FFFFFF">size</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="2968" height="56" width="273.47974395751953"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_sound_playuntildone" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,2968)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 269.47974395751953 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="sound_sounds_menu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(97.21875,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#C94FC9" fill-opacity="1" d="m 0,0 m 16,0 H 71.05786895751953 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="25.528934478759766" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">Meow</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(55.05786895751953,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="40.609375" transform="translate(8, 24) " fill="#FFFFFF">play&#xA0;sound</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#BD42BD"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="36.6015625" transform="translate(192.27661895751953, 24) " fill="#FFFFFF">until&#xA0;done</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3036" height="56" width="194.93286895751953"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_sound_play" class="blocklyDraggable" data-shapes="stack" data-category="sounds" transform="translate(12,3036)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 190.93286895751953 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="dbK|L$,xm)%`.$XkbeUX" data-argument-type="dropdown" data-shapes="argument round" transform="translate(99.875,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#C94FC9" fill-opacity="1" d="m 0,0 m 16,0 H 71.05786895751953 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="25.528934478759766" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">Meow</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(55.05786895751953,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="41.9375" transform="translate(8, 24) " fill="#FFFFFF">start&#xA0;sound</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#BD42BD"></path>
+      </g>
+      <g transform="translate(12, 3567.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="3560" height="40" width="77.6484375"></rect>
+      <g data-id="S|C6Jt7MlKb,i9hg0N+k_volume" class="blocklyDraggable" data-shapes="reporter round" data-category="sounds" transform="translate(49,3560)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#BD42BD" fill="#CF63CF" fill-opacity="1" d="m 0,0 m 20,0 H 57.6484375 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="26.82421875" transform="translate(12, 20) " fill="#FFFFFF">volume</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3856" height="56" width="190.29397583007812"></rect>
+      <g data-id="event_whenthisspriteclicked" class="blocklyDraggable" data-shapes="hat" data-category="events" transform="translate(12,3872)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 186.29397583007812 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="87.14698791503906" transform="translate(8, 24) " fill="#FFFFFF">when&#xA0;this&#xA0;sprite&#xA0;clicked</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="3940" height="56" width="349.07725524902344"></rect>
+      <g data-id="event_whenbackdropswitchesto" class="blocklyDraggable" data-shapes="hat" transform="translate(12,3956)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 345.07725524902344 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="101.81640625" transform="translate(8, 24) " fill="#FFFFFF">when&#xA0;backdrop&#xA0;switches&#xA0;to</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(219.6328125, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="121.44444274902344" height="32" stroke="#CC9900" fill="#FFBF00" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="50.72222137451172" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">backdrop1</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(97.44444274902344,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="4156" height="56" width="247.75"></rect>
+      <g data-id="event_whenbroadcastreceived" class="blocklyDraggable" data-shapes="hat" data-category="events" transform="translate(12,4172)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 243.75 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="53.07421875" transform="translate(8, 24) " fill="#FFFFFF">when&#xA0;I&#xA0;receive</text>
+        <g data-argument-type="variable" class="blocklyEditableText" transform="translate(122.1484375, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="117.6015625" height="32" stroke="#CC9900" fill="#FFBF00" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="48.80078125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">message1</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(93.6015625,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="4240" height="56" width="216.3125"></rect>
+      <g data-id="event_broadcast" class="blocklyDraggable" data-shapes="stack" data-category="events" transform="translate(12,4240)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 212.3125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="event_broadcast_menu" data-argument-type="variable" data-shapes="argument round" transform="translate(90.7109375,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#E6AC00" fill-opacity="1" d="m 0,0 m 16,0 H 101.6015625 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="40.80078125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">message1</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(85.6015625,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="37.35546875" transform="translate(8, 24) " fill="#FFFFFF">broadcast</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#CC9900"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="4308" height="56" width="287.1484375"></rect>
+      <g data-id="event_broadcastandwait" class="blocklyDraggable" data-shapes="stack" data-category="events" transform="translate(12,4308)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#FFBF00" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 283.1484375 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="REyI8,FE$NEmFEVuAveX" data-argument-type="variable" data-shapes="argument round" transform="translate(90.7109375,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#CC9900" fill="#E6AC00" fill-opacity="1" d="m 0,0 m 16,0 H 101.6015625 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="40.80078125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">message1</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(85.6015625,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="37.35546875" transform="translate(8, 24) " fill="#FFFFFF">broadcast</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#CC9900"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.41796875" transform="translate(216.3125, 24) " fill="#FFFFFF">and&#xA0;wait</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5328" height="48" width="115.5078125"></rect>
+      <g data-id="control_stop" class="blocklyDraggable" data-shapes="stack end" data-category="control" transform="translate(12,5328)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 111.5078125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="16.44921875" transform="translate(8, 24) " fill="#FFFFFF">stop</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(48.8984375, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="58.609375" height="32" stroke="#CF8B17" fill="#FFAB19" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="19.3046875" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">all</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(34.609375,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="5412" height="56" width="182.307861328125"></rect>
+      <g data-id="control_start_as_clone" class="blocklyDraggable" data-shapes="hat" data-category="control" transform="translate(12,5428)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 178.307861328125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="83.1539306640625" transform="translate(8, 24) " fill="#FFFFFF">when&#xA0;I&#xA0;start&#xA0;as&#xA0;a&#xA0;clone</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5496" height="56" width="224.3203125"></rect>
+      <g data-id="control_create_clone_of" class="blocklyDraggable" data-shapes="stack" data-category="control" transform="translate(12,5496)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 220.3203125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="control_create_clone_of_menu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(126,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#EC9C13" fill-opacity="1" d="m 0,0 m 16,0 H 74.3203125 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="27.16015625" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">myself</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(58.3203125,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="55" transform="translate(8, 24) " fill="#FFFFFF">create&#xA0;clone&#xA0;of</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#CF8B17"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="5564" height="48" width="137.5393524169922"></rect>
+      <g data-id="control_delete_this_clone" class="blocklyDraggable" data-shapes="stack end" data-category="control" transform="translate(12,5564)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#CF8B17" fill="#FFAB19" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 133.5393524169922 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="60.769676208496094" transform="translate(8, 24) " fill="#FFFFFF">delete&#xA0;this&#xA0;clone</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5700" height="40" width="279.70138931274414"></rect>
+      <g data-id="sensing_touchingobject" class="blocklyDraggable" data-shapes="reporter boolean" data-category="sensing" transform="translate(12,5700)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 259.70138931274414 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="sensing_touchingobjectmenu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(92.61805725097656,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#47A8D1" fill-opacity="1" d="m 0,0 m 16,0 H 134.18286895751953 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="57.091434478759766" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">mouse-pointer</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(118.18286895751953,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="32.30902862548828" transform="translate(20, 20) " fill="#FFFFFF">touching</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.450231552124023" transform="translate(250.8009262084961, 20) " fill="#FFFFFF">?</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5752" height="40" width="211.32406997680664"></rect>
+      <g data-id="sensing_touchingcolor" class="blocklyDraggable" data-shapes="reporter boolean" data-category="sensing" transform="translate(12,5752)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 191.32406997680664 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="colour_picker" data-argument-type="colour" data-shapes="argument round" transform="translate(134.4236068725586,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#FFFFFF" fill="#7F73F2" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) ">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="53.2118034362793" transform="translate(20, 20) " fill="#FFFFFF">touching&#xA0;color</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.450231552124023" transform="translate(182.4236068725586, 20) " fill="#FFFFFF">?</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5804" height="40" width="279.4884262084961"></rect>
+      <g data-id="sensing_coloristouchingcolor" class="blocklyDraggable" data-shapes="reporter boolean" data-category="sensing" transform="translate(12,5804)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 259.4884262084961 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="/w5e}Z7#O|AGa$;A5s?X" data-argument-type="colour" data-shapes="argument round" transform="translate(65.36111068725586,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#FFFFFF" fill="#9541A4" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) ">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="P~,GV+M~`A3beL7#g]uq" data-argument-type="colour" data-shapes="argument round" transform="translate(202.58796310424805,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#FFFFFF" fill="#40E5B8" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) ">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">&#xA0;</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="18.68055534362793" transform="translate(20, 20) " fill="#FFFFFF">color</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="40.613426208496094" transform="translate(113.36111068725586, 20) " fill="#FFFFFF">is&#xA0;touching</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.450231552124023" transform="translate(250.58796310424805, 20) " fill="#FFFFFF">?</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="5856" height="40" width="256.5902786254883"></rect>
+      <g data-id="sensing_distanceto" class="blocklyDraggable" data-shapes="reporter round" data-category="sensing" transform="translate(12,5856)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 236.59027862548828 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="sensing_distancetomenu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(102.40740966796875,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#47A8D1" fill-opacity="1" d="m 0,0 m 16,0 H 134.18286895751953 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="57.091434478759766" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">mouse-pointer</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(118.18286895751953,11)"></image>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="41.203704833984375" transform="translate(12, 20) " fill="#FFFFFF">distance&#xA0;to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="5932" height="56" width="291.40538024902344"></rect>
+      <g data-id="askandwait" class="blocklyDraggable" data-shapes="stack" data-category="sensing" transform="translate(12,5932)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 287.40538024902344 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="%PzJyJ6HeAX.9yGOQBgg" data-argument-type="text" data-shapes="argument round" transform="translate(48,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 148.56944274902344 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="74.28472137451172" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">What's&#xA0;your&#xA0;name?</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="12.89930534362793" transform="translate(8, 24) " fill="#FFFFFF">ask</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.41796875" transform="translate(220.56944274902344, 24) " fill="#FFFFFF">and&#xA0;wait</text>
+      </g>
+      <rect fill-opacity="0" x="12" y="6308" height="56" width="248.01388549804688"></rect>
+      <g data-id="sensing_setdragmode" class="blocklyDraggable" data-shapes="stack" data-category="sensing" transform="translate(12,6308)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 244.01388549804688 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="53.65161895751953" transform="translate(8, 24) " fill="#FFFFFF">set&#xA0;drag&#xA0;mode</text>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(123.30323791503906, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="116.71064758300781" height="32" stroke="#2E8EB8" fill="#5CB1D6" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="48.355323791503906" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">draggable</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(92.71064758300781,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="6620" height="40" width="257.3966979980469"></rect>
+      <g data-id="of" class="blocklyDraggable" data-shapes="reporter round" transform="translate(12,6620)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#5CB1D6" fill-opacity="1" d="m 0,0 m 20,0 H 237.39669799804688 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="sensing_of_object_menu" data-argument-type="dropdown" data-shapes="argument round" transform="translate(168.42013549804688,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#2E8EB8" fill="#47A8D1" fill-opacity="1" d="m 0,0 m 16,0 H 68.9765625 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: default;">
+            <text class="blocklyText blocklyDropdownText" x="24.48828125" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">Stage</text>
+            <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(52.9765625,11)"></image>
+          </g>
+        </g>
+        <g data-argument-type="dropdown" class="blocklyEditableText" transform="translate(12, 4) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="125.88888549804688" height="32" stroke="#2E8EB8" fill="#5CB1D6" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="52.94444274902344" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">backdrop&#xA0;#</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(101.88888549804688,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="7.265625" transform="translate(145.88888549804688, 20) " fill="#FFFFFF">of</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#2E8EB8"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7620" height="40" width="202.875"></rect>
+      <g data-id="operator_join" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7620)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 182.875 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id=";[lyg;Mk(kYYG[Cth3?L" data-argument-type="text" data-shapes="argument round" transform="translate(46.38888931274414,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 51.64814758300781 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="25.824073791503906" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">apple&#xA0;</text>
+          </g>
+        </g>
+        <g data-id="lE1]ezu;)#-@V`h!pTYj" data-argument-type="text" data-shapes="argument round" transform="translate(122.03703689575195,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 60.83796310424805 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="30.418981552124023" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">banana</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="13.19444465637207" transform="translate(12, 20) " fill="#FFFFFF">join</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7672" height="40" width="195.6747703552246"></rect>
+      <g data-id="operator_letter_of" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7672)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 175.6747703552246 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="aUM%a5lKkpI$*2;xSKue" data-argument-type="text number" data-shapes="argument round" transform="translate(57.939815521240234,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <g data-id="JWmsuxn)c)pBmr_rV#Ot" data-argument-type="text" data-shapes="argument round" transform="translate(128.47106552124023,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 47.203704833984375 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="23.601852416992188" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">apple</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="18.969907760620117" transform="translate(12, 20) " fill="#FFFFFF">letter</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="7.265625" transform="translate(105.93981552124023, 20) " fill="#FFFFFF">of</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7724" height="40" width="152.12268829345703"></rect>
+      <g data-id="operator_length" class="blocklyDraggable" data-shapes="reporter round" data-category="operators" transform="translate(12,7724)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 132.12268829345703 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g data-id="Nm`Z?WV+)jIb6u@=*E0L" data-argument-type="text" data-shapes="argument round" transform="translate(84.91898345947266,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 47.203704833984375 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="23.601852416992188" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">apple</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="32.45949172973633" transform="translate(12, 20) " fill="#FFFFFF">length&#xA0;of</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="7776" height="40" width="239.24074172973633"></rect>
+      <g data-id="operator_contains" class="blocklyDraggable" data-shapes="reporter boolean" data-category="operators" transform="translate(12,7776)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#59C059" fill-opacity="1" d="m 0,0 m 20,0 H 219.24074172973633 l 20 20 l -20 20 H 20 l -20 -20 l 20 -20 z"></path>
+        <g data-id="2B8yaxUTt=t:%b-X`=]c" data-argument-type="text" data-shapes="argument round" transform="translate(20,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 47.203704833984375 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="23.601852416992188" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">apple</text>
+          </g>
+        </g>
+        <g data-id=",|a;@|~]o5FfK##fqk.Q" data-argument-type="text" data-shapes="argument round" transform="translate(162.34027862548828,4)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#389438" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">a</text>
+          </g>
+        </g>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="31.568286895751953" transform="translate(91.20370483398438, 20) " fill="#FFFFFF">contains</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#389438"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="4.450231552124023" transform="translate(210.34027862548828, 20) " fill="#FFFFFF">?</text>
+      </g>
+      <g transform="translate(12, 8167.5)">
+        <rect class="blocklyFlyoutCheckbox" height="25" width="25" rx="5" ry="5" stroke="#C8C8C8" fill="#FFFFFF"></rect>
+        <path class="blocklyFlyoutCheckboxPath" d="M6.25 12.5L10.416666666666666 16.666666666666668L18.75 8.333333333333334" stroke="#FFFFFF" fill-opacity="0" fill="#000000" stroke-width="3px"></path>
+        <rect class="blocklyTouchTargetBackground" x="-12px" y="-12px" height="49" width="49" fill-opacity="0" fill="#000000"></rect>
+      </g>
+      <rect fill-opacity="0" x="49" y="8160" height="40" width="108.79166412353516"></rect>
+      <g data-id="`jEk@4|i[#Fk?(8x)AV.-my variable" class="blocklyDraggable" data-shapes="reporter round" data-category="data" transform="translate(49,8160)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FF8C1A" fill-opacity="1" d="m 0,0 m 20,0 H 88.79166412353516 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"></path>
+        <g transform="translate(12, 4) ">
+          <text class="blocklyText" x="42.39583206176758" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">my&#xA0;variable</text>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="8224" height="56" width="253.61197662353516"></rect>
+      <g data-id="data_setvariableto" class="blocklyDraggable" data-shapes="stack" data-category="data" transform="translate(12,8224)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FF8C1A" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 249.61197662353516 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="Iuoo~9;$AK]y-Pr^#v+^" data-argument-type="text" data-shapes="argument round" transform="translate(205.61197662353516,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">0</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="11.265625" transform="translate(8, 24) " fill="#FFFFFF">set</text>
+        <g data-argument-type="variable" class="blocklyEditableText" transform="translate(48, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="126.79166412353516" height="32" stroke="#DB6E00" fill="#FF8C1A" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="53.39583206176758" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">my&#xA0;variable</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(102.79166412353516,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="7.41015625" transform="translate(182.79166412353516, 24) " fill="#FFFFFF">to</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#DB6E00"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="8288" height="56" width="279.4288158416748"></rect>
+      <g data-id="data_changevariableby" class="blocklyDraggable" data-shapes="stack" data-category="data" transform="translate(12,8288)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FF8C1A" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 275.4288158416748 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <g data-id="WD9hvywVR;q#.UTd_%6R" data-argument-type="text number" data-shapes="argument round" transform="translate(231.4288158416748,8)">
+          <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"></path>
+          <g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;">
+            <text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#575E75">1</text>
+          </g>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="27.2734375" transform="translate(8, 24) " fill="#FFFFFF">change</text>
+        <g data-argument-type="variable" class="blocklyEditableText" transform="translate(70.546875, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="126.79166412353516" height="32" stroke="#DB6E00" fill="#FF8C1A" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="53.39583206176758" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">my&#xA0;variable</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(102.79166412353516,11)"></image>
+        </g>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="9.045138359069824" transform="translate(205.33853912353516, 24) " fill="#FFFFFF">by</text>
+        <path class="blocklyPath" style="visibility: hidden" d="" fill="#DB6E00"></path>
+      </g>
+      <rect fill-opacity="0" x="12" y="8352" height="56" width="252.78240203857422"></rect>
+      <g data-id="data_showvariable" class="blocklyDraggable" data-shapes="stack" data-category="data" transform="translate(12,8352)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FF8C1A" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 248.78240203857422 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="50.99536895751953" transform="translate(8, 24) " fill="#FFFFFF">show&#xA0;variable</text>
+        <g data-argument-type="variable" class="blocklyEditableText" transform="translate(117.99073791503906, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="126.79166412353516" height="32" stroke="#DB6E00" fill="#FF8C1A" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="53.39583206176758" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">my&#xA0;variable</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(102.79166412353516,11)"></image>
+        </g>
+      </g>
+      <rect fill-opacity="0" x="12" y="8416" height="56" width="245.07406616210938"></rect>
+      <g data-id="data_hidevariable" class="blocklyDraggable" data-shapes="stack" data-category="data" transform="translate(12,8416)">
+        <path class="blocklyPath blocklyBlockBackground" stroke="#DB6E00" fill="#FF8C1A" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 241.07406616210938 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"></path>
+        <text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="47.14120101928711" transform="translate(8, 24) " fill="#FFFFFF">hide&#xA0;variable</text>
+        <g data-argument-type="variable" class="blocklyEditableText" transform="translate(110.28240203857422, 8) " style="cursor: default;">
+          <rect rx="4" ry="4" x="0" y="0" width="126.79166412353516" height="32" stroke="#DB6E00" fill="#FF8C1A" class="blocklyBlockBackground" fill-opacity="1"></rect>
+          <text class="blocklyText blocklyDropdownText" x="53.39583206176758" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" fill="#FFFFFF">my&#xA0;variable</text>
+          <image height="12px" width="12px" xlink:href="dropdown-arrow.svg" transform="translate(102.79166412353516,11)"></image>
+        </g>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,12)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="62.1953125" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="31.09765625" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Motion</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,1408)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="54.6171875" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="27.30859375" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Looks</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,2916)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="57.0625" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="28.53125" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Sound</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,3636)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="60.1796875" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="30.08984375" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Events</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,4400)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="66.0234375" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="33.01171875" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Control</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,5648)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="71.2109375" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="35.60546875" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Sensing</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,6900)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="89.875" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="44.9375" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Operators</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,8056)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="81.1953125" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="40.59765625" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Variables</text>
+      </g>
+      <g class="blocklyFlyoutButton" transform="translate(12,8108)" display="block" fill="none">
+        <rect class="blocklyFlyoutButtonShadow" rx="4" ry="4" x="1" y="1" width="197.109375" height="40" fill-opacity="0" fill="#000000"></rect>
+        <rect class="blocklyFlyoutButtonBackground" rx="4" ry="4" width="197.109375" height="40" stroke="#C6C6C6" fill="none"></rect>
+        <text class="blocklyText" x="98.5546875" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Make a Variable</text>
+      </g>
+      <g class="blocklyFlyoutButton" transform="translate(12,8480)" display="block" fill="none">
+        <rect class="blocklyFlyoutButtonShadow" rx="4" ry="4" x="1" y="1" width="165.078125" height="40" fill-opacity="0" fill="#000000"></rect>
+        <rect class="blocklyFlyoutButtonBackground" rx="4" ry="4" width="165.078125" height="40" stroke="#C6C6C6" fill="none"></rect>
+        <text class="blocklyText" x="82.5390625" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Make a List</text>
+      </g>
+      <g class="blocklyFlyoutLabel categoryLabel" transform="translate(12,8532)" display="block">
+        <rect class="blocklyFlyoutLabelBackground" rx="4" ry="4" width="92.6171875" height="40"></rect>
+        <text class="blocklyFlyoutLabelText" x="46.30859375" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">My Blocks</text>
+      </g>
+      <g class="blocklyFlyoutButton" transform="translate(12,8584)" display="block" fill="none">
+        <rect class="blocklyFlyoutButtonShadow" rx="4" ry="4" x="1" y="1" width="180.5" height="40" fill-opacity="0" fill="#000000"></rect>
+        <rect class="blocklyFlyoutButtonBackground" rx="4" ry="4" width="180.5" height="40" stroke="#C6C6C6" fill="none"></rect>
+        <text class="blocklyText" x="90.25" y="20" text-anchor="middle" dominant-baseline="central" dy="0" fill="#575E75">Make a Block</text>
+      </g>
+    </g>
+    <g class="blocklyBubbleCanvas" transform="translate(0,2) scale(0.675)"></g>
+  </g>
+  <defs>
+    <clipPath id="blocklyBlockMenuClipPath">
+      <rect id="blocklyBlockMenuClipRect" height="1871px" width="248px" y="0" x="0"></rect>
+    </clipPath>
+  </defs>
+</svg>

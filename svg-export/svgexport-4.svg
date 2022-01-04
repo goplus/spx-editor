@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237" width="237"  height="237" ><style>
+      @keyframes VOLUME_SMALL_WAVE_FLASH {
+          0% { opacity: 0; }
+         33% { opacity: 1; }
+         66% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      @keyframes VOLUME_LARGE_WAVE_FLASH {
+          0% { opacity: 0; }
+         33% { opacity: 1; }
+         66% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .volume__small-wave {
+        animation: VOLUME_SMALL_WAVE_FLASH 2s infinite;
+        opacity: 0;
+      }
+
+      .volume__large-wave {
+        animation: VOLUME_LARGE_WAVE_FLASH 2s infinite .3s;
+        opacity: 0;
+      }
+    </style><polygon fill="#FFFFFF" points="88 107 65 107 65 131 89 131 112 154 112 84"></polygon><g fill="none" stroke="#FFFFFF" stroke-width="10px" stroke-linecap="round"><path class="volume__small-wave" d="M 142 86 C 151 107 151 130 142 151" stroke="#FFFFFF" fill="none" stroke-width="10px"></path><path class="volume__large-wave" d="M 165 74 C 178 97 178 140 165 163" stroke="#FFFFFF" fill="none" stroke-width="10px"></path></g></svg>
