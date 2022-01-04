@@ -1,7 +1,8 @@
 import { types } from 'mobx-state-tree';
+import { v4 as uuidv4 } from 'uuid';
 
 export const Sound = types.model('Sound', {
-  id: types.identifier,
+  id: types.optional(types.identifier, uuidv4),
   name: types.string,
   format: types.string,
   soundData: types.string,

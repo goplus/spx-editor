@@ -8,16 +8,16 @@ export default observer(function SpriteList() {
     <div className="sprite-list flex-1 flex-auto bg-white rounded-md p-1 space-y-2">
       <div className="sprite-list-item flex flex-row items-center space-x-2">
         <button className='add-var bg-sky-500 text-white p-1 rounded-md'>
-          上传精灵
+          Upload sprite
+        </button>
+        <button className='add-var bg-sky-500 text-white p-1 rounded-md' onClick={workspace.newSprite}>
+          Paint
         </button>
         <button className='add-var bg-sky-500 text-white p-1 rounded-md'>
-          绘制精灵
+          Search
         </button>
         <button className='add-var bg-sky-500 text-white p-1 rounded-md'>
-          查找精灵库
-        </button>
-        <button className='add-var bg-sky-500 text-white p-1 rounded-md'>
-          随机精灵
+          Suprise
         </button>
       </div>
       {workspace.project.sprites.map(sprite => (

@@ -1,24 +1,14 @@
 import React from 'react';
 import {observer} from 'mobx-react';
+import { parse as svgParse } from 'svg-parser';
 import classnames from 'classnames';
 import PaintEditor from 'scratch-paint/dist/scratch-paint';
-import {imageDataToDataUrl} from '../lib/image';
 import {workspace} from '../store';
 
 export default observer(function CostumeEditor() {
   const currentCostume = workspace.currentCostume;
 
   const optionalZoomLevelId = '0'
-  const handleUpdateImageFunction = async (isVector, image) => {
-    const dataFormat = isVector ? 'svg' : 'png';
-    if (!isVector) {
-      image = imageDataToDataUrl(image);
-    }
-    currentCostume.setImage(dataFormat, image);
-  }
-  const handleUpdateNameFunction = (name) => {
-    currentCostume.setName(name)
-  }
 
   return (
     <div className="costume-editor flex flex-row flex-auto space-x-0.5 bg-gray-100">
@@ -34,6 +24,14 @@ export default observer(function CostumeEditor() {
             {costume.name}
           </div>
         ))}
+        <button
+            className={classnames(
+              "costume-item flex flex-row items-center space-x-2 p-2 rounded-md bg-gray-200 bg-green-300"
+            )}
+            onClick={workspace.newCostume}
+          >
+            Paint
+          </button>
       </div>
       <div className="costume-editor-content flex-1 flex flex-col bg-white">
         <PaintEditor
@@ -43,8 +41,8 @@ export default observer(function CostumeEditor() {
           imageFormat={currentCostume.dataFormat}
           rotationCenterX={currentCostume.rotationCenterX}
           rotationCenterY={currentCostume.rotationCenterY}
-          onUpdateImage={handleUpdateImageFunction}
-          onUpdateName={handleUpdateNameFunction}
+          onUpdateImage={workspace.updateCostumeImage}
+          onUpdateName={currentCostume.setName}
           zoomLevelId={optionalZoomLevelId}
         />
       </div>

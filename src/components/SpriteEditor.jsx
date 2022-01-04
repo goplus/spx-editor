@@ -11,17 +11,17 @@ export default observer(function SpriteEditor() {
   const tabs = [
     {
       id: 'code',
-      title: '代码',
+      title: 'Code',
       Component: CodeEditor,
     },
     {
       id: 'costume',
-      title: '造型',
+      title: 'Costume',
       Component: CostumeEditor,
     },
     {
       id: 'sound',
-      title: '声音',
+      title: 'Sound',
       Component: SoundEditor,
     }
   ];

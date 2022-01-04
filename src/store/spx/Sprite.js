@@ -1,10 +1,11 @@
 import { types } from 'mobx-state-tree';
+import {v4 as uuidv4} from 'uuid';
 
 import Variable from './Variable';
 import Costume from './Costume';
 
 const Sprite = types.model('Sprite', {
-  id: types.identifier,
+  id: types.optional(types.identifier, uuidv4),
   name: types.string,
   isStage: types.boolean,
   isDraggable: types.optional(types.boolean, true),
@@ -22,6 +23,20 @@ const Sprite = types.model('Sprite', {
   costumes: types.array(Costume),
 })
 .actions(self => ({
+  newCostume() {
+    for (let i = 1; i < 1000; i++) {
+      const costumeName = `costume${i}`;
+      if (!self.costumes.find(costume => costume.name === costumeName)) {
+        const costume = Costume.create({
+          name: costumeName,
+        });
+        self.costumes.push(costume);
+        return costume;
+      }
+    }
+
+    throw new Error('Too many costumes');
+  },
   setCode(code) {
     self.code = code;
   },
