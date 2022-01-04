@@ -27,11 +27,11 @@ class CodeEditor extends React.Component {
   }
 
   onMount = (editor) => {
-    const {project, sprite} = this.props;
-    const declCode = genDeclCode(project, sprite);
-    const lineCount = declCode.split('\n').length;
-
     editor.onDidChangeCursorPosition((e) => {
+      const {project, sprite} = this.props;
+      const declCode = genDeclCode(project, sprite);
+      const lineCount = declCode.split('\n').length;
+
       if (e.position.lineNumber < lineCount) {
         editor.setPosition({
           lineNumber:lineCount,
