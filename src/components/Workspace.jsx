@@ -2,6 +2,7 @@ import React from 'react';
 import SpriteEditor from './SpriteEditor';
 import SpriteList from './SpriteList';
 import Stage from './Stage';
+import SpritePropEditor from './SpritePropEditor';
 
 export default function Workspace() {
   return (
@@ -11,6 +12,7 @@ export default function Workspace() {
       </div>
       <div className='right-wrapper flex flex-none flex-col space-y-1'>
         <Stage />
+        <SpritePropEditor />
         <SpriteList />
       </div>
     </div>

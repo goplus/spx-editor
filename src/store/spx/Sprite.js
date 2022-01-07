@@ -37,8 +37,24 @@ const Sprite = types.model('Sprite', {
 
     throw new Error('Too many costumes');
   },
+  setName(name) {
+    self.name = name;
+  },
   setCode(code) {
     self.code = code;
+  },
+  setVisible(visible) {
+    console.log({visible})
+    self.visible = visible;
+  },
+  setX(x) {
+    self.x = x;
+  },
+  setY(y) {
+    self.y = y;
+  },
+  setSize(size) {
+    self.size = size;
   },
   addVar(varName, varType, varValue) {
     if (self.variables.filter(v => v.name === varName).length > 0) {
