@@ -62,6 +62,9 @@ const Sprite = types.model('Sprite', {
   setSize(size) {
     self.size = size;
   },
+  setHeading(heading) {
+    self.heading = heading;
+  },
   addVar(varName, varType, varValue) {
     if (self.variables.filter(v => v.name === varName).length > 0) {
       return false;

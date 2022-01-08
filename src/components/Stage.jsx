@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from 'react';
+import {useRef} from 'react';
 import {observer} from 'mobx-react';
 import Moveable from "react-moveable";
 import { workspace } from '../store';
@@ -7,11 +7,14 @@ const Costume = observer(function Costume({project, costume, sprite}) {
   const ref = useRef(null);
   const x = project.stageWidth / 2 + sprite.x - costume.rotationCenterX;
   const y = project.stageHeight / 2 + sprite.y - costume.rotationCenterY;
+  const rotate = sprite.heading - 90;
 
   return (
     <>
-      <div ref={ref} className="stage-sprite inline-block absolute" style={{transform: `translate(${x}px, ${y}px)`}}>
+      <div ref={ref} className="stage-sprite inline-block absolute"
+        style={{transform: `translate(${x}px, ${y}px) scale(${sprite.size}) rotate(${rotate}deg)`}}>
         <img key={sprite.id}
+          alt={sprite.name + '/' + costume.name}
           src={`data:image/svg+xml;utf8,${encodeURIComponent(costume.image)}`} />
       </div>
       <Moveable

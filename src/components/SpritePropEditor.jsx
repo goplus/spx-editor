@@ -62,7 +62,7 @@ export default observer(function SpritePropEditor() {
           <input className="sprite-prop-editor-item-input w-16 border rounded-full text-center"
             type='number' min='0.01'
             value={sprite.size * 100}
-            onChange={e => parseFloat(e.target.value) / 100} />
+            onChange={e => sprite.setSize(parseFloat(e.target.value) / 100)} />
         </div>
         <div className="sprite-prop-editor-item flex flex-row items-center space-x-2">
           <div className="sprite-prop-editor-item-name">
@@ -71,7 +71,7 @@ export default observer(function SpritePropEditor() {
           <input className="sprite-prop-editor-item-input w-16 border rounded-full text-center"
             type='number' min='0' max='360'
             value={sprite.heading}
-            onChange={e => parseFloat(e.target.value)} />
+            onChange={e => sprite.setHeading(parseFloat(e.target.value))} />
         </div>
       </div>
     </div>
