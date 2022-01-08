@@ -44,7 +44,7 @@ export default observer(function Stage() {
   const [w, h] = [workspace.project.stageWidth, workspace.project.stageHeight];
 
   return (
-    <div className="stage flex-none bg-white rounded-md overflow-hidden"
+    <div className="stage flex-none bg-white rounded-md overflow-hidden relative"
       style={{width: `${w}px`, height: `${h}px`}}>
       {workspace.project.pureSprites.map(sprite => {
         if (!sprite.visible) {
