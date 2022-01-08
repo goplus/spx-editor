@@ -6,7 +6,7 @@ import { workspace } from '../store';
 const Costume = observer(function Costume({project, costume, sprite}) {
   const ref = useRef(null);
   const x = project.stageWidth / 2 + sprite.x - costume.rotationCenterX;
-  const y = project.stageHeight / 2 + sprite.y - costume.rotationCenterY;
+  const y = project.stageHeight / 2 - sprite.y - costume.rotationCenterY;
   const rotate = sprite.heading - 90;
 
   return (
@@ -33,7 +33,7 @@ const Costume = observer(function Costume({project, costume, sprite}) {
         onDrag={e => {
           const [transX, transY] = e.beforeTranslate;
           sprite.setX(transX + costume.rotationCenterX - project.stageWidth / 2);
-          sprite.setY(transY + costume.rotationCenterY - project.stageHeight / 2);
+          sprite.setY(-transY - costume.rotationCenterY + project.stageHeight / 2);
         }}
       />
     </>
@@ -41,8 +41,11 @@ const Costume = observer(function Costume({project, costume, sprite}) {
 });
 
 export default observer(function Stage() {
+  const [w, h] = [workspace.project.stageWidth, workspace.project.stageHeight];
+
   return (
-    <div className="stage flex-none bg-white rounded-md" style={{width: '480px', height: '360px'}}>
+    <div className="stage flex-none bg-white rounded-md overflow-hidden"
+      style={{width: `${w}px`, height: `${h}px`}}>
       {workspace.project.pureSprites.map(sprite => {
         if (!sprite.visible) {
           return null;
