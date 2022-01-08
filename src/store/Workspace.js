@@ -11,6 +11,7 @@ const Workspace = types.model('Workspace', {
   currentSound: types.maybe(types.reference(Sound)),
   // Refresh some stateful components when create new project
   refreshCounter: types.optional(types.integer, 0),
+  handleVisible: types.optional(types.boolean, false),
 })
 .views(self => ({
   isCurrentSprite(sprite) {
@@ -22,11 +23,18 @@ const Workspace = types.model('Workspace', {
   isCurrentSound(sound) {
     return self.currentSound === sound;
   },
+  isHandleNeedShow(sprite) {
+    return self.handleVisible && self.isCurrentSprite(sprite);
+  }
 }))
 .actions( self => ({
+  setHandleVisible(visible) {
+    self.handleVisible = visible;
+  },
   setCurrentSprite(sprite) {
     self.currentSprite = sprite;
     self.currentCostume = sprite.costumes[0];
+    self.handleVisible = false;
   },
   setCurrentCostume(costume) {
     if (!self.currentSprite.costumes.find(c => c.id === costume.id)) {
