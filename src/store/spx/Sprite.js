@@ -9,7 +9,7 @@ const Sprite = types.model('Sprite', {
   name: types.string,
   isStage: types.boolean,
   isDraggable: types.optional(types.boolean, true),
-  heading: types.optional(types.number, 0),
+  heading: types.optional(types.number, 90),
   rotationStyle: types.optional(types.string, 'normal'),
   size: types.optional(types.number, 1.0),
   visible: types.optional(types.boolean, true),
