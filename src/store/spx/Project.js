@@ -22,6 +22,9 @@ const Project = types.model('Project', {
   },
 }))
 .actions(self => ({
+  setName(name) {
+    self.name = name;
+  },
   newSprite() {
     for (let i = 1; i < 1000; i++) {
       const spriteName = `Sprite${i}`;

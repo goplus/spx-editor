@@ -17,7 +17,9 @@ export default observer(function Appbar(props) {
             </div>
             <div className="sm:ml-6">
               <label htmlFor="name" className="m-2 text-white">Name:</label>
-              <input id="name" className="bg-blue-100 px-3 py-1 focus:bg-white rounded-lg" defaultValue={workspace.project.name} />
+              <input id="name" className="bg-blue-100 px-3 py-1 focus:bg-white rounded-lg"
+                defaultValue={workspace.project.name}
+                onChange={e => workspace.project.setName(e.target.value)} />
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
