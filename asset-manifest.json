@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spx-editor/static/css/main.ba76698f.css",
-    "main.js": "/spx-editor/static/js/main.69bb5abc.js",
+    "main.js": "/spx-editor/static/js/main.9e972f45.js",
     "static/js/787.7362d4e5.chunk.js": "/spx-editor/static/js/787.7362d4e5.chunk.js",
     "index.html": "/spx-editor/index.html",
     "main.ba76698f.css.map": "/spx-editor/static/css/main.ba76698f.css.map",
-    "main.69bb5abc.js.map": "/spx-editor/static/js/main.69bb5abc.js.map",
+    "main.9e972f45.js.map": "/spx-editor/static/js/main.9e972f45.js.map",
     "787.7362d4e5.chunk.js.map": "/spx-editor/static/js/787.7362d4e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba76698f.css",
-    "static/js/main.69bb5abc.js"
+    "static/js/main.9e972f45.js"
   ]
 }
