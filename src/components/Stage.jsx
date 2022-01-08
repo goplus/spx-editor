@@ -28,6 +28,8 @@ const Costume = observer(function Costume({project, costume, sprite}) {
         origin={false}
         padding={{"left":0,"top":0,"right":0,"bottom":0}}
         onDragStart={e => {
+          workspace.setCurrentSprite(sprite);
+
           e.set([x, y]);
         }}
         onDrag={e => {
