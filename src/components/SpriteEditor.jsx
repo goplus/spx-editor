@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab } from '@headlessui/react';
-import {observer} from 'mobx-react-lite';
+import {observer} from 'mobx-react';
 import CodeEditor from './CodeEditor';
 import CostumeEditor from './CostumeEditor';
 import SoundEditor from './SoundEditor';

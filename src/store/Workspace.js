@@ -33,6 +33,7 @@ const Workspace = types.model('Workspace', {
       throw new Error("Costume not found in current sprite");
     }
     self.currentCostume = costume;
+    self.currentSprite.setCurrentCostume(costume);
   },
   setCurrentSound(sound) {
     if (!self.project.sounds.find(s => s.id === sound.id)) {

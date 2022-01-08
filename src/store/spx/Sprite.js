@@ -37,6 +37,13 @@ const Sprite = types.model('Sprite', {
 
     throw new Error('Too many costumes');
   },
+  setCurrentCostume(costume) {
+    if (typeof(costume) === 'number') {
+      self.currentCostume = costume;
+    } else {
+      self.currentCostume = self.costumes.indexOf(costume);
+    }
+  },
   setName(name) {
     self.name = name;
   },
@@ -44,7 +51,6 @@ const Sprite = types.model('Sprite', {
     self.code = code;
   },
   setVisible(visible) {
-    console.log({visible})
     self.visible = visible;
   },
   setX(x) {

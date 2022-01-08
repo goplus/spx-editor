@@ -10,6 +10,11 @@ export default types.model('Costume', {
   rotationCenterX: types.optional(types.number, 0),
   rotationCenterY: types.optional(types.number, 0),
 })
+.views(self => ({
+  get isShowable() {
+    return self.image.length > 0;
+  }
+}))
 .actions(self => ({
   setName(name) {
     self.name = name;

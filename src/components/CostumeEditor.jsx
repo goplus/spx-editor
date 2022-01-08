@@ -6,7 +6,6 @@ import {workspace} from '../store';
 
 export default observer(function CostumeEditor() {
   const currentCostume = workspace.currentCostume;
-
   const optionalZoomLevelId = '0'
 
   return (
