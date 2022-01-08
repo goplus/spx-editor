@@ -1,6 +1,5 @@
 import React from 'react';
 import {observer} from 'mobx-react';
-import { parse as svgParse } from 'svg-parser';
 import classnames from 'classnames';
 import PaintEditor from 'scratch-paint/dist/scratch-paint';
 import {workspace} from '../store';

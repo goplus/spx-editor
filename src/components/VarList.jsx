@@ -2,7 +2,6 @@ import React, {useState, useRef, useLayoutEffect} from 'react';
 import {observer} from 'mobx-react';
 import NewVarModal from './NewVarModal';
 import Blocks from './Blocks';
-import { workspace } from '../store';
 
 function Var({sprite, variable}) {
   return (

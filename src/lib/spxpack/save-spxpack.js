@@ -39,7 +39,7 @@ function generateSpxFile(project, sprite) {
   return genDeclCode(project, sprite, false) + sprite.code;
 }
 
-function genBlankImageBytes(width, height) {
+export function genBlankImageBytes(width, height) {
   const canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;

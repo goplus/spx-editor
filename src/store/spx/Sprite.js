@@ -5,7 +5,7 @@ import Variable from './Variable';
 import Costume from './Costume';
 
 const Sprite = types.model('Sprite', {
-  id: types.identifier,
+  id: types.optional(types.identifier, uuidv4),
   name: types.string,
   isStage: types.boolean,
   isDraggable: types.optional(types.boolean, true),

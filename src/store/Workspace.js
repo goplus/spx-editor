@@ -29,13 +29,13 @@ const Workspace = types.model('Workspace', {
     self.currentCostume = sprite.costumes[0];
   },
   setCurrentCostume(costume) {
-    if (!self.currentSprite.costumes.find(c => c.id == costume.id)) {
+    if (!self.currentSprite.costumes.find(c => c.id === costume.id)) {
       throw new Error("Costume not found in current sprite");
     }
     self.currentCostume = costume;
   },
   setCurrentSound(sound) {
-    if (!self.project.sounds.find(s => s.id == sound.id)) {
+    if (!self.project.sounds.find(s => s.id === sound.id)) {
       throw new Error("Sound not found in current project");
     }
     self.currentSound = sound;

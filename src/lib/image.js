@@ -17,11 +17,11 @@ export function convertDataUrlToBinaryString(dataURI) {
 
 // The following functions are from:
 //   https://stackoverflow.com/questions/16363419/how-to-get-binary-string-from-arraybuffer
-function ArrayBufferToString(buffer) {
+export function ArrayBufferToString(buffer) {
   return BinaryToString(String.fromCharCode.apply(null, Array.prototype.slice.apply(new Uint8Array(buffer))));
 }
 
-function StringToArrayBuffer(string) {
+export function StringToArrayBuffer(string) {
   return StringToUint8Array(string).buffer;
 }
 
