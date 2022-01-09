@@ -1,7 +1,7 @@
 import {types, clone} from 'mobx-state-tree';
 import {parse as svgParse} from 'svg-parser';
 import {Project, Sprite, Costume, Sound} from './spx';
-import defaultProject from '../lib/default-project/project-data'
+import defaultProject from '../lib/default-project'
 import {imageDataToDataUrl} from '../lib/image';
 
 const Workspace = types.model('Workspace', {
