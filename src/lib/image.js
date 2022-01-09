@@ -40,7 +40,7 @@ function BinaryToString(binary) {
   }
 }
 
-function StringToBinary(string) {
+export function StringToBinary(string) {
   var chars, code, i, isUCS2, len, _i;
 
   len = string.length;
