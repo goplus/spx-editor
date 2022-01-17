@@ -61,7 +61,13 @@ class CodeEditor extends React.Component {
           onMount={this.handleEditorDidMount}
           language='go'
           value={fullCode}
-          onChange={this.onChange} />
+          onChange={this.onChange}
+          options={{
+            minimap: {
+              enabled: false,
+            },
+          }}
+        />
       </div>
     );
   }

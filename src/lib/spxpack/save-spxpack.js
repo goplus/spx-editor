@@ -105,8 +105,8 @@ function saveSpriteJsonToZip(project, sprite, zip) {
   });
 
   const spriteJson = {
-    currentCostumeIndex: sprite.currentCostume,
-    costumeIndex: sprite.currentCostume,
+    currentCostumeIndex: sprite.currentCostumeIndex,
+    costumeIndex: sprite.currentCostumeIndex,
     heading: sprite.heading,
     isDraggable: sprite.isDraggable,
     rotationStyle: "normal",
