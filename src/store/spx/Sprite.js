@@ -17,11 +17,16 @@ const Sprite = types.model('Sprite', {
   y: types.optional(types.number, 0),
   volume: types.optional(types.number, 100.0),
   code: types.optional(types.string, ''),
-  currentCostume: types.optional(types.integer, 0),
+  currentCostumeIndex: types.optional(types.integer, 0),
   variables: types.array(Variable),
   lists: types.array(types.string),
   costumes: types.array(Costume),
 })
+.views(self => ({
+  get currentCostume() {
+    return self.costumes[self.currentCostumeIndex];
+  },
+}))
 .actions(self => ({
   newCostume() {
     for (let i = 1; i < 1000; i++) {
@@ -38,17 +43,14 @@ const Sprite = types.model('Sprite', {
     throw new Error('Too many costumes');
   },
   delCostome(id) {
-    // TODO:
-    // self.costumes = self.costumes.filter(v => v.id !== id)
-    self.currentCostume = 0
-    // error after execute the code in line 42:
-    // mobx-state-tree.module.js:7592 Uncaught Error: [mobx-state-tree] Failed to resolve reference 'xxx' to type 'Costume' (from node: /currentCostume)
+    self.costumes = self.costumes.filter(v => v.id !== id)
+    self.currentCostumeIndex = 0
   },
   setCurrentCostume(costume) {
     if (typeof(costume) === 'number') {
-      self.currentCostume = costume;
+      self.currentCostumeIndex = costume;
     } else {
-      self.currentCostume = self.costumes.indexOf(costume);
+      self.currentCostumeIndex = self.costumes.indexOf(costume);
     }
   },
   setName(name) {

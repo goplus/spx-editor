@@ -65,7 +65,7 @@ export default observer(function Stage() {
           return null;
         }
 
-        const costume = sprite.costumes[sprite.currentCostume];
+        const costume = sprite.currentCostume;
         return (
           costume.isShowable && <Costume key={sprite.id}
             project={workspace.project}
