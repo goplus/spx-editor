@@ -43,6 +43,10 @@ const Workspace = types.model('Workspace', {
     self.currentCostume = costume;
     self.currentSprite.setCurrentCostume(costume);
   },
+  deleteCurrentCostome() {
+    self.currentSprite.delCostome(self.currentCostume.id)
+    self.currentCostume = self.currentSprite.costumes[0];
+  },
   setCurrentSound(sound) {
     if (!self.project.sounds.find(s => s.id === sound.id)) {
       throw new Error("Sound not found in current project");

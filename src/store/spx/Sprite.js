@@ -37,6 +37,13 @@ const Sprite = types.model('Sprite', {
 
     throw new Error('Too many costumes');
   },
+  delCostome(id) {
+    // TODO:
+    // self.costumes = self.costumes.filter(v => v.id !== id)
+    self.currentCostume = 0
+    // error after execute the code in line 42:
+    // mobx-state-tree.module.js:7592 Uncaught Error: [mobx-state-tree] Failed to resolve reference 'xxx' to type 'Costume' (from node: /currentCostume)
+  },
   setCurrentCostume(costume) {
     if (typeof(costume) === 'number') {
       self.currentCostume = costume;
