@@ -46,12 +46,11 @@ const Sprite = types.model('Sprite', {
     self.costumes = self.costumes.filter(v => v.id !== id)
     self.currentCostumeIndex = 0
   },
-  setCurrentCostume(costume) {
-    if (typeof(costume) === 'number') {
-      self.currentCostumeIndex = costume;
-    } else {
-      self.currentCostumeIndex = self.costumes.indexOf(costume);
+  setCurrentCostumeIndex(index) {
+    if (typeof(index) !== 'number') {
+      throw new Error("index is not a number");
     }
+    self.currentCostumeIndex = index;
   },
   setName(name) {
     self.name = name;

@@ -45,6 +45,9 @@ const Project = types.model('Project', {
 
     throw new Error('Too many sprites');
   },
+  deleteSprite(index) {
+    self.sprites = self.sprites.filter((_, i) => i !== index)
+  },
 }));
 
 export default Project

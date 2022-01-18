@@ -3,7 +3,7 @@ import {observer} from 'mobx-react';
 import Moveable from "react-moveable";
 import { workspace } from '../store';
 
-const Costume = observer(function Costume({project, costume, sprite}) {
+const Costume = observer(function Costume({project, costume, sprite, spriteIndex}) {
   const ref = useRef(null);
   const x = project.stageWidth / 2 + sprite.x - costume.rotationCenterX;
   const y = project.stageHeight / 2 - sprite.y - costume.rotationCenterY;
@@ -32,7 +32,7 @@ const Costume = observer(function Costume({project, costume, sprite}) {
         origin={false}
         padding={{"left":0,"top":0,"right":0,"bottom":0}}
         onDragStart={e => {
-          workspace.setCurrentSprite(sprite);
+          workspace.setCurrentSpriteIndex(spriteIndex);
           workspace.setHandleVisible(true);
 
           e.set([x, y]);
@@ -60,7 +60,7 @@ export default observer(function Stage() {
     <div className="stage flex-none bg-white rounded-md overflow-hidden relative"
       style={{width: `${w}px`, height: `${h}px`}}
       onClick={() => workspace.setHandleVisible(false)}>
-      {workspace.project.pureSprites.map(sprite => {
+      {workspace.project.pureSprites.map((sprite, i) => {
         if (!sprite.visible) {
           return null;
         }
@@ -70,6 +70,7 @@ export default observer(function Stage() {
           costume.isShowable && <Costume key={sprite.id}
             project={workspace.project}
             sprite={sprite}
+            spriteIndex={i+1}
             costume={costume} />
         );
     })}
