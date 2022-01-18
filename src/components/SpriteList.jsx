@@ -5,7 +5,8 @@ import {workspace} from '../store'
 
 export default observer(function SpriteList() {
   return (
-    <div className="sprite-list flex-auto bg-white rounded-md p-1 space-y-2">
+    <div className="sprite-list flex-auto bg-white rounded-md p-1 space-y-2" 
+      style={{width: workspace.project.stageWidth}}>
       <div className="sprite-list-item flex flex-row items-center space-x-2">
         <button className='add-var bg-sky-500 text-white p-1 rounded-md'>
           Upload sprite
@@ -20,11 +21,11 @@ export default observer(function SpriteList() {
           Suprise
         </button>
       </div>
+      <div className="grid grid-cols-5 gap-2 overflow-y-auto">
       {workspace.project.sprites.map((sprite, i) => (
         <div key={sprite.id}
-          className={classnames("sprite-list-item items-center space-x-2 p-2 rounded-md flow-root",
-            workspace.isCurrentSprite(sprite) ? 'bg-sky-300' : 'bg-gray-200',
-            sprite.isStage ? 'border-8 border-gray-100' : 'border-0')}
+          className={classnames("sprite-list-item p-2 rounded-md flow-root truncate",
+            workspace.isCurrentSprite(sprite) ? 'bg-sky-300' : 'bg-gray-200')}
             onClick={() => workspace.setCurrentSpriteIndex(i)}
         >
           <div className="sprite-list-item-name float-left" >
@@ -44,6 +45,7 @@ export default observer(function SpriteList() {
           }
         </div>
       ))}
+      </div>
     </div>
   );
 });
