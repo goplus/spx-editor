@@ -11,13 +11,13 @@ export default observer(function CostumeEditor() {
   return (
     <div className="costume-editor flex flex-row flex-auto space-x-0.5 bg-gray-100">
       <div className="costume-list w-32 p-2 space-y-2 bg-white">
-        {workspace.currentSprite.costumes.map(costume => (
+        {workspace.currentSprite.costumes.map((costume, i) => (
           <div key={costume.id}
             className={classnames(
               "costume-item flex flex-row items-center space-x-2 p-2 rounded-md bg-gray-200 group",
               workspace.isCurrentCostume(costume) ? 'bg-sky-300' : 'bg-gray-200'
             )}
-            onClick={() => workspace.setCurrentCostume(costume)}
+            onClick={() => workspace.setCurrentCostumeIndex(i)}
           >
             <p> {costume.name} </p>
             { workspace.isCurrentCostume(costume) && workspace.currentSprite.costumes.length > 1 &&
