@@ -23,7 +23,8 @@ export default observer(function SpriteList() {
       {workspace.project.sprites.map((sprite, i) => (
         <div key={sprite.id}
           className={classnames("sprite-list-item items-center space-x-2 p-2 rounded-md flow-root",
-            workspace.isCurrentSprite(sprite) ? 'bg-sky-300' : 'bg-gray-200')}
+            workspace.isCurrentSprite(sprite) ? 'bg-sky-300' : 'bg-gray-200',
+            sprite.isStage ? 'border-8 border-gray-100' : 'border-0')}
             onClick={() => workspace.setCurrentSpriteIndex(i)}
         >
           <div className="sprite-list-item-name float-left" >

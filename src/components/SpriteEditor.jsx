@@ -16,12 +16,12 @@ export default observer(function SpriteEditor() {
     },
     {
       id: 'costume',
-      title: 'Costume',
+      title: 'Costumes',
       Component: CostumeEditor,
     },
     {
       id: 'sound',
-      title: 'Sound',
+      title: 'Sounds',
       Component: SoundEditor,
     }
   ];
